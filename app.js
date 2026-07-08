@@ -44,6 +44,11 @@
     }
   });
 
+  /* ---------------- footer copyright year ---------------- */
+
+  var yearEl = document.getElementById('copyright-year');
+  if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+
   /* ---------------- active section in the frame ---------------- */
 
   var navLinks = Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]'));

@@ -1118,3 +1118,27 @@ h1 .line + .line .w:nth-child(4) { transition-delay: .34s; }
   .hero-media, .env-media { inset: 0; }
   .env-media-split img { inset: 0; height: 100%; }
 }
+
+.footer-grid-four {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.footer-social a,
+.footer-social span {
+  display: inline-block;
+  margin-right: 0.4rem;
+}
+
+.footer-abn {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  .footer-grid-four {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

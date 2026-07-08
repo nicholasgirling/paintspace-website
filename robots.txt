@@ -1,0 +1,23 @@
+# Paintspace — www.paintspace.com.au
+# Original paintings, commissioned for specific environments. Melbourne, Australia.
+
+User-agent: *
+Allow: /
+
+# AI / LLM crawlers are welcome; a structured summary is provided at /llms.txt
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://www.paintspace.com.au/sitemap.xml

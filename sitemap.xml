@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.paintspace.com.au/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.paintspace.com.au/images/positional.jpg</image:loc>
+      <image:title>Paintspace art consultancy, a commissioned painting reviewed beside its intended wall</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.paintspace.com.au/images/residential.jpg</image:loc>
+      <image:title>Commissioned painting consultancy for residential environments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.paintspace.com.au/images/corporate.jpg</image:loc>
+      <image:title>Commissioned painting consultancy for workplace environments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.paintspace.com.au/images/interior-design.jpg</image:loc>
+      <image:title>Commissioned painting consultancy for civic and care environments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.paintspace.com.au/images/hospitality.jpg</image:loc>
+      <image:title>Commissioned painting consultancy for hotel and hospitality environments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.paintspace.com.au/images/banner-comission.jpg</image:loc>
+      <image:title>Commissioned original painting installed in the living room it was made for</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.paintspace.com.au/images/banner-paintings6.jpg</image:loc>
+      <image:title>Large-format framed commissioned canvas by Melbourne artist Nicholas Girling</image:title>
+    </image:image>
+  </url>
+</urlset>

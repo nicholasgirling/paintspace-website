@@ -1091,16 +1091,92 @@ h1 .line + .line .w:nth-child(4) { transition-delay: .34s; }
   .site-nav a { font-size: 1.05rem; }
   .brand-sub { display: none; }
 
+  .hero {
+    min-height: auto;
+    display: block;
+  }
+  .hero-media {
+    position: relative;
+    inset: auto;
+    height: clamp(260px, 42svh, 420px);
+  }
+  .hero-media img {
+    height: 100%;
+    object-position: center 35%;
+  }
+  .hero-scrim { display: none; }
   .hero-block { margin-left: 0; max-width: none; width: 100%; }
   .plumb { left: 1.25rem; }
   .hero-coord { display: none; }
 
-  .env-block-bl, .env-block-tr { margin: 0; width: 100%; max-width: none; }
-  .env-block-tr { margin-top: auto; }
+  .env-panel {
+    min-height: auto;
+    display: block;
+  }
+  .env-media {
+    position: relative;
+    inset: auto;
+    height: clamp(240px, 40svh, 380px);
+  }
+  .env-media img {
+    height: 100%;
+  }
+  .env-media-low img {
+    object-position: center 58%;
+  }
+
+  .env-index,
+  .env-name {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    transform: none;
+  }
+  .env-index {
+    display: block;
+    margin: 1.5rem var(--frame-x) 0;
+    font-size: clamp(3rem, 12vw, 4.5rem);
+    color: var(--chalk);
+    -webkit-text-stroke: 0;
+    opacity: .25;
+  }
+  .env-name {
+    display: block;
+    margin: .75rem var(--frame-x) 0;
+    font-size: clamp(2.6rem, 12vw, 4.5rem);
+    text-shadow: none;
+  }
+  .env-name .w { display: inline; }
+  .env-name-right,
+  .env-name-top {
+    text-align: left;
+  }
+
+  .env-block-bl, .env-block-tr {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+  }
+  .env-block-tr { margin-top: 0; }
   .env-workplace { justify-content: flex-end; }
-  .env-index { top: 4.5rem; }
-  .env-name { font-size: clamp(2.8rem, 14vw, 5rem); }
-  .env-name-right { bottom: auto; top: 32%; }
+
+  .env-split {
+    min-height: auto;
+  }
+  .env-media-split {
+    min-height: clamp(240px, 40svh, 380px);
+  }
+  .env-media-split img {
+    inset: 0;
+    height: 100%;
+  }
+
+  .env-band {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 
   .step, .step-left, .step-right {
     width: auto;
@@ -1114,7 +1190,14 @@ h1 .line + .line .w:nth-child(4) { transition-delay: .34s; }
   .step-left .step-copy { margin-left: 0; }
 
   .field-row { flex-direction: column; }
-  .evidence-wide img { height: 56vh; }
+
+  .evidence-wide img {
+    height: clamp(240px, 38svh, 360px);
+  }
+  .practice-media {
+    min-height: clamp(260px, 42svh, 420px);
+    background-position: center 38%;
+  }
 }
 
 /* ============================ REDUCED MOTION ============================ */
